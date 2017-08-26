@@ -1,0 +1,84 @@
+body{ 
+	background:url('../img/bg_2.png')no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+.centro{
+	position: absolute;
+	left: 15%;
+	right: 15%;
+	top: 100px;
+	bottom: 0%;
+	background: white;
+	border-radius: 10px;
+	border:thin;
+	overflow-y: auto;
+}
+#name_ep{
+	font-size: 30px;
+	position: relative;
+	left: 20px;	
+	top: 10px;
+}
+
+#epsodios_nome{
+	position: relative;
+	left: 10px;
+	font-size: 15px;
+	
+}
+#epsodios_nome:visited{
+	color: #ff1a1a;
+}
+.ep{
+	margin-left: -45%;
+	width: 90%;
+	height: 75%;
+	position: absolute;
+	left:50%;
+	top: 100px;
+}
+@media screen and (max-width: 1000px) {
+	.centro{
+		position: absolute;
+		left: 0.5%;
+		right: 0.5%;
+		top: 80px;
+		background: white;
+		border-radius: 10px;
+		border:thin;
+		overflow-y: auto;
+		overflow-x: auto;
+	}
+	#name_ep{
+		font-size: 17px;
+	}
+	.ep{
+		margin-left: -45%;
+		width: 90%;
+		height: 75%;
+		position: absolute;
+		left:50%;
+		top: 73px;
+	}
+	#epsodios_nome{
+		position: relative;
+		left: 10px;
+		font-size: 20px;
+		text-align: center;
+	}
+	
+}
+.adicionar_fan{
+	position: absolute;
+	left: 40%;
+	top: -5px;
+	bottom: 0;
+}
+#add_fan{
+
+}
+#fan_add_logo{
+	width: 50px;
+}

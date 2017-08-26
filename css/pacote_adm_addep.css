@@ -1,0 +1,184 @@
+.formulario{
+	position: absolute;
+	background:white;
+	width:50%;
+	left: 50%;
+	margin-left: -25%;
+	top: 120px;
+	padding: 20px;
+	border-radius: 10px;
+	border:thin solid;
+}
+#inputs{
+	display:inline-flex;
+	margin:10px;
+}
+input{
+	position: absolute;
+	right: 20px;
+	width: 50%;
+}
+#nomes{
+	font-size: 20px;
+	text-align: justify;
+}
+.posi{
+	position: relative;
+	width:52.5%;
+	left: 47.5%;
+	height: 30px;
+}
+
+#voltar{
+	position: absolute;
+	right: 20px;
+	top: 50%;
+	font-size: 20px;
+	margin-top: -20px;
+	border:thin solid;
+	padding: 10px;
+}
+#voltar:hover{text-decoration: none;}
+
+.lista{
+	position: relative;
+	width:45%;
+	left: 50%;
+	margin-left: -22.5%;
+	bottom: -450px;
+	background:white;
+	border-radius: 10px;
+	border:thin solid;
+	overflow-y: auto;
+	height: 300px;
+}
+#epsodios_nome{
+	position: relative;
+	font-size: 15px;
+	left: 10px;
+}
+#ed-ex{
+	margin: 5px;
+	cursor: pointer;
+}
+box{
+	position: absolute;
+	right: 10px;
+}
+.listaDiv{
+	position: absolute;
+}
+
+#logo_icone{
+	width: 50px;
+	margin-left:50px;
+}
+#block_logo{  position: absolute; top: 10px; cursor: pointer;}
+
+#logo_text{position:relative; ;font-size: 20px;top: 0px; }
+#logo_text:hover{color:#337ab7; text-decoration: none;}
+
+.fanarts{
+	position: absolute;
+	left: 5%;
+	right: 65%;
+	top: 100px;
+	height: 500px;
+	background:white;
+	overflow-y: auto;
+	border:thin solid;
+}
+
+#img_fan_apro{
+	width: 100px;
+	height: 100px;
+	float: left;
+	padding: 5px;
+	cursor: pointer;
+}
+
+hr{width: 100%;}
+
+
+#ap{
+	font-size: 20px;
+	border:thin solid;
+	padding: 5px;
+	float: right;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+boxs{
+	position: relative;
+	left: 1.5%;
+
+}
+#fechar_x{
+	float: right;
+	margin-right: 10px;
+	margin-top: 5px;
+	border:thin solid;
+	padding-left: 2px;
+	padding-right:  2px;
+}
+.div_aguard{
+	position: absolute ;
+	left: 0;
+	right: 0;
+	top: 0;
+	background:#337ab7;
+	border-bottom: thin solid;
+	opacity: 0.8;
+}
+#a_div_aguard{
+	font-size: 20px;
+	position:relative;
+	left: 50%;
+	width: 200px;
+	margin-left: -100px;
+	color: white;
+}
+.total{
+	position: relative;
+	top: 30px;
+}
+.menu_cel{display: none;}
+@media screen and (max-width: 1024px) {
+
+	boxin{
+		display: none;
+	}
+
+	#block_logo{
+		width:300px;
+		position: absolute;
+		left: 50%;
+		margin-left: -150px;
+	}
+
+	.menu_cel{
+		display: block;
+		position: absolute;
+		left: 0;
+		right: 0;
+		background:white;
+		z-index: 9999;
+		text-align: center;
+		border: thin solid;
+		display: flex;
+		
+	}
+	.item{
+		border:none;
+		border-bottom:thin solid;
+		border-color: black;
+
+	}
+	.fanarts{
+		position: absolute;
+		left: 1%;
+		right: 1%;
+		height: 300PX;
+	}
+
+}

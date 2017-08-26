@@ -1,0 +1,189 @@
+.centro_fan{
+	position: absolute;
+	left: 0.1%;
+	right: 0.1%;
+	top: 70px;
+	background:none;
+	padding: 10px;
+}
+body{background: url('../img/bg_1.png');}
+
+#img_fan{
+	width: 90%;
+	height: 300px;
+}
+
+
+.box{
+	position: relative;
+	display: inline-table;
+	background:white;
+	width: 24.5%;
+	border:thin solid;
+	height: 420px;
+	border-color: transparent;
+	font-size: 15px;
+	padding: 10px;
+	margin-top: 5px;
+	border-radius: 10px;
+	
+	margin-left: 5px;
+}
+
+@media screen and (max-width: 1000px) {
+	.box{
+		position: relative;
+		display: inline-table;
+		background:white;
+		width: 95%;
+		border:thin solid;
+		height: 420px;
+		border-color: transparent;
+		font-size: 15px;
+		padding: 10px;
+		margin-top: 5px;
+		border-radius: 10px;
+		margin-left: 2.5%;
+	}
+
+	#addFanart{display: none;}
+}
+.black{
+	display: ;
+	background: black;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	z-index: 99;
+	opacity: 0.95;
+}
+
+#img_Open{
+	height: 100%;
+	width: 50%;
+	margin-left: 10px;
+	opacity: 1;
+
+}
+.imagemOpen{
+	position: absolute;
+	left: 20%;
+	right: 20%;
+	top: 50px;
+	bottom: 10%;
+	background:white;
+	opacity: 1.0;
+	padding: 5px;
+	z-index: 101;
+	border-radius: 10px;
+}
+#X_Saida{
+	position: absolute;
+	top: 5px;
+	right:10px;
+	font-size: 20px;
+}
+#dados_desc{
+	position: absolute;
+	right: 5%;
+	width: 40%;
+	top: 100px;
+
+}
+#comentarios{
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	height: 380%;
+	padding: 5px;
+	background: white;
+	overflow-y: auto;
+	border:thin solid;
+	border-color: #f5f5f0;
+}
+#comentario_iput{
+	position: absolute;
+	right: 5%;
+	bottom: 15px;
+	width: 30%;
+}
+#name{
+	position: absolute;
+	right: 35.5%;
+	width: 10%;
+	bottom: 15px;
+}
+
+#img_fanA{
+	
+	
+	position: absolute;
+	left: 1%;
+	right: 1%;
+	width: 56%;
+	height: 90%;
+	border:thin solid;
+}
+
+.centro_A{
+	position: absolute;
+	left: 2%;
+	right: 2%;
+	top: 80px;
+	height: 900px;
+	padding: 10px;
+	background:white;
+}
+#descricao_a{
+	font-size: 20px;
+}
+.comentario{
+	position: absolute;
+	height: 400px;
+	width: 35%;
+	right: 5%;
+	border: thin solid;
+	padding:5px;
+	overflow-y: auto;
+}
+#nome{
+	position: absolute;
+	bottom: 5px;
+	width: 20%;
+
+}
+#text_Area{
+	position: absolute;
+	bottom: 5px;
+	width: 75%;
+	right: 10px;
+}
+.total{
+	position: absolute;
+	height: 40px;
+	width: 35%;
+	right: 5%;
+	border: thin solid;
+	padding:5px;
+	top:485px
+}
+
+@media screen and (max-width: 1000px) {
+	#img_fanA{
+		
+		
+		position: absolute;
+		left: 1%;
+		right: 1%;
+		width: 98%;
+		border:thin solid;
+	}
+	.comentario{
+		display: none;
+	}
+	.total{
+		display: none;
+	}
+}

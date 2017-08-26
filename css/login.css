@@ -1,0 +1,67 @@
+body{ 
+	background:url('../img/bg_1.png')no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.box_center{
+	position: absolute;
+	left: 30%;
+	right: 30%;
+	top: 25%;
+	bottom:25%;
+	background:white;
+	border-radius: 10px;
+	border:thin solid;
+	opacity: 0.9;
+}
+form{
+	display: grid;
+	padding: 10px;
+	margin-top: 19%;
+}
+input{
+	margin:15px;
+}
+#logo_icone{
+
+	width: 80px;
+}
+a{
+	font-size: 30px
+}
+#topo{
+	position: absolute;
+	left:50%;
+	width: 300px;
+	margin-left: -150px;
+	top: 20px; 
+}
+#botão{
+	padding: 10px;
+	font-size: 20px;
+}
+
+
+@media screen and (max-width: 1024px) {
+	.box_center{
+		position: absolute;
+		left: 1%;
+		right: 1%;
+	}
+	#logo_icone{
+		width: 50px;
+
+	}
+	#logo_text{
+		font-size: 20px;
+	}
+	#topo{
+		position: absolute;
+		width: 300px;
+		left: 65%;
+	}
+}

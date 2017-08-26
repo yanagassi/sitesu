@@ -1,0 +1,38 @@
+a:hover{
+	text-decoration: none;color:#104E8B;
+}
+a{margin-left: 4%; color:#104E8B;}
+textarea{
+	width: 90%;
+	height: 200px;
+	resize: none;
+	margin-left: 5%;
+}
+#content_desc{
+	position: absolute;
+	width: 100%;
+	top: 10%;
+}
+#desc{
+	font-size:18px;
+}
+#tit{
+	font-size: 18px;
+}
+#botao{
+	position: absolute;
+	right: 5%;
+}
+div{
+	height: 100%;
+	position: absolute;
+	top: 50%;
+	margin-top: -30%;
+}
+body{
+	overflow-y: hidden;
+	background:url('https://s-media-cache-ak0.pinimg.com/originals/6e/9a/fd/6e9afde8b531db3e96190b8e4351e291.jpg');
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}

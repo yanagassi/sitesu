@@ -1,0 +1,80 @@
+body{ 
+	background:url('../img/bg_1.png')no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+a:hover{text-decoration: none;}
+.topo{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	height: 80px;
+	background: white;
+}
+#logo_icone{
+	width: 50px;
+	margin-left:50px;
+}
+#block_logo{  position: absolute; top: 10px; cursor: pointer;}
+
+#logo_text{position:relative; ;font-size: 20px;top: 0px; }
+#logo_text:hover{color:#337ab7; text-decoration: none;}
+
+boxin{
+	position: absolute;
+	right: 20px;
+	top: 50%;
+	margin-top: -12.5px;
+}
+.item{
+	margin: 10px;
+	font-size: 15px;
+	border:thin solid;
+	padding: 10px;
+	cursor: pointer;
+}
+.item:hover{text-decoration: none;}
+
+.tikets{
+	position: absolute;
+	left:40%;
+	right: 30%;
+	top: 100px;
+	height: 500px;
+	background:white;
+	overflow-y: auto;
+	border:thin solid;
+}
+#todos_tiket{
+	position: absolute;
+	top: 30px;
+}
+
+#tiketALista{
+	cursor: pointer;
+	margin-left: 10px;
+}
+#apagaALista{
+	margin-left: 10px;
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+	.tikets{
+		position: absolute;
+		top: 410px;
+		height: 300px;
+		left: 1%;
+		right: 1%;
+	}
+
+ 	#mobile_rank{
+
+ 		display: none;
+	}
+}

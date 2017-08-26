@@ -1,0 +1,125 @@
+body{
+	background:url('../img/bg_1.png')no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.menu{
+	position: absolute;
+	left: 0;
+	right: 0;
+	height:70px;
+	background:white;
+	border-bottom:thin solid;
+	border-color:#032243;
+	border-bottom: thin solid;
+}
+#ul_menu{
+	list-style: none;
+	display: inline-flex;
+}
+#li_menu{
+	padding-left:20px;
+	font-size: 20px;
+}
+#avise{
+	position: absolute;
+	bottom: 0px;
+	right: 20px;
+	font-size: 18px;
+	margin: 5px;
+	cursor: pointer;
+}
+a:hover{text-decoration: none; color: #032243;}
+#block_menu{
+	position: absolute;
+	right: 5%;
+	top: 50%;
+	margin-top: -15px;
+}
+#logo_icone{
+	width: 50px;
+	margin-left:50px;
+}
+
+
+#block_logo{  position: absolute; top: 10px; cursor: pointer;}
+
+#logo_text{position:relative; ;font-size: 20px;top: 0px; }
+#logo_text:hover{color:#337ab7; text-decoration: none;}
+#menu_icone{display: none;}
+
+#menuCentro{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 70px;
+	background:white;
+	display: none;
+}
+
+#a_topo_ep{
+	color: white; 
+	font-size: 20px;
+}
+#itensMenuCel{
+	display:grid;
+	font-size: 20px;
+	padding: 10px;
+	text-align: center;
+	border-bottom:thin solid;
+}
+
+#title_top{
+	text-align: center;
+	padding:5px;
+	color: white;
+}
+#menu_icone2{display: none;}
+@media screen and (max-width: 1000px) {
+	#li_menu{display: none;}
+	#block_logo{
+		width: 300px;
+		position: absolute;
+		left: 50%;
+		margin-left: -150px;
+	}
+	#menu_icone{
+		display: block;
+		position: absolute;
+		right: 5px;
+		width: 30px;
+		top: 50%;
+		margin-top: -15px;
+	}
+	#menu_icone2{
+		display: none;
+		position: absolute;
+		right: 5px;
+		width: 30px;
+		top: 50%;
+		margin-top: -15px;
+	}
+
+
+}
+
+#title_top{
+	position: absolute;
+	left: 0;
+	right: 0;
+	cursor: default;
+	border:thin solid;
+	background: #032243;
+	opacity: 0.85;
+	border-color:  white;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+#content_lista{
+	position: relative;
+	top: 10px;
+
+}
